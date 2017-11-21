@@ -1,0 +1,24 @@
+{
+  "name": "http-code-translator",
+  "version": "1.0.1",
+  "description": "Translate http code",
+  "main": "index.js",
+  "typings": "./index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuoez02/http-code-translator.git"
+  },
+  "keywords": [
+    "chinese",
+    "translation"
+  ],
+  "author": "zuoez02",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zuoez02/http-code-translator/issues"
+  },
+  "homepage": "https://github.com/zuoez02/http-code-translator#readme"
+}
