@@ -1,11 +1,13 @@
 {
   "name": "http-code-translator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Translate http code",
   "main": "index.js",
   "typings": "./index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js",
+    "build": "gulp",
+    "prepublish": "gulp"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/zuoez02/http-code-translator/issues"
   },
-  "homepage": "https://github.com/zuoez02/http-code-translator#readme"
+  "homepage": "https://github.com/zuoez02/http-code-translator#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0"
+  }
 }
